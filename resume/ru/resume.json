@@ -6,7 +6,7 @@
     "image": "",
     "picture": "",
     "email": "levashov-mikhail@mail.ru",
-    "phone": "+7 (921) 250-20-50",
+    "phone": "+7(921)250-20-50",
     "url": "http://aapozdnyakove.ru",
     "summary": "Интересуюсь облачными технологиями и бэкенд-разработкой. Мне доводилось выполнять широкий спектр задач, поэтому для меня разработка - это не просто написание кода, а комплексный процесс, зависящий от слаженной работы команды и корректно настроенных процессов",
     "location": {
@@ -19,48 +19,41 @@
     "profiles": [
       {
         "network": "Github",
-        "username": "aaletov",
-        "url": "https://github.com/aaletov"
-      },
-      {
-        "network": "Gitlab",
-        "username": "aapozd",
-        "url": "https://gitlab.com/aapozd"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "artemy-pozdnyakov-b7972b233",
-        "url": "https://www.linkedin.com/in/artemy-pozdnyakov-b7972b233/"
+        "username": "mikhaillevashov",
+        "url": "https://github.com/mikhaillevashov"
       },
       {
         "network": "Telegram",
-        "username": "aaletov",
-        "url": "https://t.me/aaletov"
+        "username": "suetolog7000",
+        "url": "https://t.me/suetolog7000"
       }
     ]
   },
   "work": [
     {
-      "name": "Лаборатория Dell Technologies - ВШПИ СПбПУ",
+      "name": "СПбПУ - PetService",
       "location": "Санкт-Петербург",
-      "description": "Лаборатория Dell Technologies - ВШПИ СПбПУ",
+      "description": "СПбПУ - PetService",
       "position": "Стажёр",
-      "url": "https://dell.com",
-      "startDate": "2022-02-01",
-      "endDate": "2022-08-01",
-      "summary": "Занимался изучением open-source проекта компании Dell - csi-baremetal, CSI-драйвера для kubernetes, предназначенного для управления физическими дисками в кластере. Проводил анализ существующего устройства работы драйвера с целью дальнейшего расширения его функциональности",
+      "url": "https://www.spbstu.ru",
+      "startDate": "2022-07-01",
+      "endDate": "2022-09-01",
+      "summary": "Реализовал базу данных для проекта
+		Разработал парсер для выборки из xml таблицы с дальнейшим использованием в базе данных",
       "highlights": [
-        "Go, Kubernetes, Kind, gRPC",
-        "Выдвинул предложение реализовать поддержку Storage Capacity в проекте для снижения нагрузки на использовавшийся в проекте кастомный планировщик, разработал план реализации задачи, сравнил различные решения"
+        "Python 3.9",
+        "Django",
+	"PostgreSQL",
+	"Github"
       ]
     },
     {
-      "name": "Linxdatacenter",
+      "name": "Freelance",
       "location": "Санкт-Петербург",
-      "description": "Linxdatacenter",
-      "position": "Младший разработчик бэкенда",
-      "url": "https://linx.ru",
-      "startDate": "2022-09-01",
+      "description": "Freelance",
+      "position": "Python разработчик",
+      "url": "https://freelance.ru",
+      "startDate": "2023-09-30",
       "endDate": "2023-06-01",
       "summary": "Занимался исправлением багов, рефакторингом исходного кода, расширением функциональности существующих модулей, разработкой новых микросервисов, поддержкой документации. Занимался составлением полного перечня доступных для мониторинга данных о стойках в ЦОД",
       "highlights": [
@@ -229,10 +222,7 @@
   ],
   "interests": [
     {
-      "name": "Кулинария"
-    },
-    {
-      "name": "Кино"
+      "name": "Компьютерные игры, кино, спорт"
     }
   ],
   "meta": {
