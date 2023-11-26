@@ -30,35 +30,35 @@
   },
   "work": [
     {
-      "name": "PetService - Peter the Great St.Petersburg Polytechnic University",
-      "location": "Санкт-Петербург",
-      "description": "СПбПУ - PetService",
-      "position": "Стажёр",
-      "url": "https://www.spbstu.ru",
-      "startDate": "2022-07-01",
-      "endDate": "2022-09-01",
-      "summary": "Реализовал базу данных для проекта\n Разработал парсер для выборки из xml таблицы с дальнейшим использованием в базе данных",
-      "highlights": [
-        "Python 3.9",
-        "Django",
-	"PostgreSQL",
-	"Github"
-      ]
-    },
-    {
       "name": "Freelance",
       "location": "Санкт-Петербург",
       "description": "Freelance",
       "position": "Python разработчик",
-      "url": "https://freelance.ru",
+      "url": "",
       "startDate": "2023-09-30",
-      "endDate": "2023-06-01",
-      "summary": "Реализовал Telegram бота для парсинга комментариев на Wildberries \n Сделал систему формирования автоматического отчета продаж с помощью гугл таблиц",
+      "endDate": "2023-11-20",
+      "summary": "Реализовал Telegram бота для парсинга комментариев на Wildberries. \n Сделал систему формирования автоматического отчета продаж с помощью гугл таблиц.",
       "highlights": [
         "Python 3.9",
         "aiogram",
 	"pygsheets",
 	"WB API",
+	"Github"
+      ]
+    },
+    {
+      "name": "PetService - Peter the Great St.Petersburg Polytechnic University",
+      "location": "Санкт-Петербург",
+      "description": "СПбПУ - PetService",
+      "position": "Стажёр",
+      "url": "",
+      "startDate": "2022-07-01",
+      "endDate": "2022-09-01",
+      "summary": "Реализовал базу данных для проекта.\n Разработал парсер для выборки информации из xml таблицы с дальнейшим использованием в базе данных.",
+      "highlights": [
+        "Python 3.9",
+        "Django",
+	"PostgreSQL",
 	"Github"
       ]
     }
@@ -146,20 +146,15 @@
       "description": "Курсовая работа по курсу \"Архитектура программных систем\" в СПбПУ",
       "highlights": [
         "Спроектировал систему массового обслуживания с заданными параметрами",
-        "Разработал программу для имитационного моделирования СМО с заданными дисциплинами отказа и постановки на обслуживание",
-        "Реализовал REST API сервис на основе разработанной программы",
-        "Разработал фронтенд для приложения с использованием фреймворка React"
+        "Разработал программу для имитационного моделирования СМО с заданными дисциплинами отказа и постановки на обслуживание"
       ],
       "keywords": [
         "Система массового обслуживания",
         "Queueing system",
         "Имитационное моделирование",
-        "Simulation modeling",
-        "Go",
-        "OpenAPI",
-        "React"
+        "Simulation modeling"
       ],
-      "url": "https://github.com/aaletov/go-smo",
+      "url": "",
       "startDate": "2022-09-15",
       "endDate": "2022-11-17",
       "type": "coursework"
