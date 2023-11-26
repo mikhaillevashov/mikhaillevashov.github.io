@@ -36,7 +36,7 @@
       "position": "Python разработчик",
       "url": "",
       "startDate": "2023-09-30",
-      "endDate": "2023-11-20",
+      "endDate": "Present",
       "summary": "Реализовал Telegram бота для парсинга комментариев на Wildberries. \n Сделал систему формирования автоматического отчета продаж с помощью гугл таблиц.",
       "highlights": [
         "Python 3.9",
@@ -142,6 +142,26 @@
   ],
   "projects": [
     {
+      "name": "Web приложение для онлайн-аптеки",
+      "description": "Курсовая работа по курсу \"Технологии и разработки качественного программного обеспечения\" в СПбПУ",
+      "highlights": [
+	"Реализация DTO.",
+	"Реализация entities и repositories.",
+        "Реализация базы данных проекта.",
+	"Верстка части страниц и реализация их функционала."
+      ],
+      "keywords": [
+        "Java",
+        "Spring",
+        "TypeScript",
+        "PostgreSQL"
+      ],
+      "url": "",
+      "startDate": "2023-09-03",
+      "endDate": "2023-12-19",
+      "type": "coursework"
+    },
+    {
       "name": "Моделирование СМО",
       "description": "Курсовая работа по курсу \"Архитектура программных систем\" в СПбПУ",
       "highlights": [
@@ -175,29 +195,6 @@
       "url": "https://github.com/aaletov/nats-chat",
       "startDate": "2022-07-31",
       "type": "project"
-    },
-    {
-      "name": "Система автоматизации работы больницы",
-      "description": "Курсовая работа по курсу \"Объектно-ориентированное программирование\" в СПбПУ",
-      "highlights": [
-        "Разработал веб-приложение на языке Java, позволяющее автоматировать работу больницы. Бэкенд написан с использованием паттерна MVC и фреймворка Spring, фронтенд использует фреймворк Vaadin"
-      ],
-      "keywords": [
-        "Java",
-        "Spring",
-        "Vaadin",
-        "PostgreSQL"
-      ],
-      "url": "https://github.com/aaletov/spring-cs",
-      "startDate": "2022-02-22",
-      "endDate": "2022-05-28",
-      "type": "coursework"
-    },
-    {
-      "name": "План реализации Storage Capacity в драйвере csi-baremetal",
-      "url": "https://github.com/dell/csi-baremetal/blob/8085a0a2b61703f6646f68684c31e6cc1c8f815f/docs/proposals/storage-capacity-proposal.md",
-      "type": "contribution",
-      "endDate": "2022-08-01"
     }
   ],
   "interests": [
