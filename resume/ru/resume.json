@@ -106,9 +106,7 @@
       "name": "Testing",
       "level": "Intermediate",
       "keywords": [
-        "Unit testing",
-	"Gtest",
-	"JUnit"
+        "Unit testing"
       ]
     },
     {
@@ -180,20 +178,20 @@
       "type": "coursework"
     },
     {
-      "name": "nats-chat",
-      "description": "Чат, использующий для своей работы только терминал и работающий сервер nats",
+      "name": "Многопользовательская автоматизированная система управления аэропорта",
+      "description": "Курсовая работа по курсу \"Базы данных\" в СПбПУ",
       "highlights": [
-        "Разработал систему генерации адресов по публичному ключу с использованием алгоритма двойного хеширования",
-        "Спроектировал API для коммуникации между клиентом и демоном по gRPC поверх unix-сокета",
-        "Реализовал поведенческие тесты на Python с использованием docker-compose"
+        "Разработал оконное приложение на основе Tkinter",
+	"Реализовал базу данных проекта"
       ],
       "keywords": [
-        "nats",
-        "chat",
-        "cryptography"
+        "Python",
+        "Tkinter",
+        "MySQL"
       ],
-      "url": "https://github.com/aaletov/nats-chat",
-      "startDate": "2022-07-31",
+      "url": "",
+      "startDate": "2022-09-15",
+      "endDate": "2022-11-17",
       "type": "project"
     }
   ],
