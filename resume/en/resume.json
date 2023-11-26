@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Артемий Поздняков",
-    "label": "Разработчик Go",
+    "name": "Михаил Левашов",
+    "label": "Python developer",
     "image": "",
-    "email": "aapozdnyakove@gmail.com",
-    "phone": "+7 (922) 249-69-44",
-    "url": "http://aapozdnyakove.ru",
-    "summary": "Интересуюсь облачными технологиями и бэкенд-разработкой. Люблю работать в команде и легко налаживаю контакт с новыми людьми",
+    "picture": "",
+    "email": "levashov-mikhail@mail.ru",
+    "phone": "+7 (921) 250-20-50",
+    "url": "https://mikhaillevashov.github.io/resume/ru/",
     "location": {
       "address": "",
       "postalCode": "",
@@ -17,42 +17,49 @@
     },
     "profiles": [
       {
+        "network": "Github",
+        "username": "mikhaillevashov",
+        "url": "https://github.com/mikhaillevashov"
+      },
+      {
         "network": "Telegram",
-        "username": "aaletov",
-        "url": "https://t.me/aaletov"
+        "username": "suetolog7000",
+        "url": "https://t.me/suetolog7000"
       }
     ]
   },
   "work": [
     {
-      "name": "Лаборатория Dell Technologies - ВШПИ СПбПУ",
+      "name": "Freelance",
       "location": "Санкт-Петербург",
-      "description": "Лаборатория Dell Technologies - ВШПИ СПбПУ",
-      "position": "Стажёр",
-      "url": "https://dell.com",
-      "startDate": "2022-02-01",
-      "endDate": "2022-08-01",
-      "summary": "Работал над open-source проектом csi-baremetal, CSI-драйвером для kubernetes, предназначенным для управления физическими дисками в кластере",
+      "description": "Freelance",
+      "position": "Python разработчик",
+      "url": "",
+      "startDate": "2023-09-30",
+      "endDate": "Present",
+      "summary": "Реализовал Telegram бота для парсинга комментариев на Wildberries. \n Разработал систему формирования автоматического отчета продаж с помощью гугл таблиц.",
       "highlights": [
-        "Go, Kubernetes, Kind",
-        "Выдвинул предложение реализовать поддержку Storage Capacity в проекте для снижения нагрузки на использовавшийся в проекте кастомный планировщик, разработал план реализации задачи"
+        "Python 3.9",
+        "aiogram",
+	"pygsheets",
+	"WB API",
+	"Github"
       ]
     },
     {
-      "name": "Linxdatacenter",
+      "name": "PetService - Peter the Great St.Petersburg Polytechnic University",
       "location": "Санкт-Петербург",
-      "description": "Linxdatacenter",
-      "position": "Младший разработчик бэкенда",
-      "url": "https://linx.ru",
-      "startDate": "2022-09-01",
-      "endDate": "2023-06-01",
-      "summary": "Занимался разработкой бэкенда клиентского портала компании",
+      "description": "СПбПУ - PetService",
+      "position": "Стажёр",
+      "url": "",
+      "startDate": "2022-07-01",
+      "endDate": "2022-09-01",
+      "summary": "Спроектировал базу данных.\n Разработал парсер для выборки информации из xml таблицы с дальнейшим использованием в базе данных.",
       "highlights": [
-        "Go, Gin, Ginkgo, PostgreSQL, Redis",
-        "Переработал модуль аутентификации пользователей",
-        "Разработал микросервис доступа к истории посещения ЦОД",
-        "Реализовал с нуля BDD-тесты для BFF-микросервиса, реализовал обёртку для эффективного написания API-тестов, настроил генерацию отчётов по тестам, настроил интеграцию тестов в Gitlab",
-        "Расширил функциональность CRM-системы, занимался автоматизацией задач отдела продаж"
+        "Python 3.9",
+        "Django",
+	"PostgreSQL",
+	"Github"
       ]
     }
   ],
@@ -69,45 +76,22 @@
         "Технологии программирования (C++)", 
         "Объектно-ориентированное программирование (Java)",
         "Алгоритмы и структуры данных (С++)",
-        "Операционные системы (C)",
-        "Системное программное обеспечение GNU/Linux",
         "Архитектура ЭВМ (ASM)",
-        "Базы данных (C#)",
+        "Базы данных (Python)",
         "Введение в машинное обучение (Python)",
-        "Моделирование СМО (Go)"
+        "Моделирование СМО (Java)",
+	"Компьютерная графика (Python)",
+	"Технологии разработки качественного ПО (Java, TypeScript, HTML, CSS)"
       ]
     }
   ],
   "skills": [
     {
-      "name": "Teamwork",
-      "level": "Intermediate",
-      "keywords": [
-        "Agile",
-        "Scrum",
-        "Active listening",
-        "Organizing and Planning"
-      ]
-    },
-    {
-      "name": "Testing",
-      "level": "Intermediate",
-      "keywords": [
-        "TDD",
-        "BDD",
-        "Unit testing"
-      ]
-    },
-    {
       "name": "Back-end development",
       "level": "Master",
       "keywords": [
         "Microservices",
-        "REST",
-        "OpenAPI",
-        "gRPC",
-        "JWT",
-        "OAuth"
+        "Git"
       ]
     },
     {
@@ -115,18 +99,32 @@
       "level": "Master",
       "keywords": [
         "SQL",
-        "PostgreSQL",
-        "NoSQL",
-        "MongoDB",
-        "Redis"
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Testing",
+      "level": "Intermediate",
+      "keywords": [
+        "Unit testing"
+      ]
+    },
+    {
+      "name": "Teamwork",
+      "level": "Intermediate",
+      "keywords": [
+        "Agile",
+        "Scrum",
+        "Confluence",
+        "Jira"
       ]
     },
     {
       "name": "Programming languages",
       "keywords": [
-        "C++",
         "Python",
-        "Go"
+        "Java",
+        "C++"
       ]
     }
   ],
@@ -142,19 +140,22 @@
   ],
   "projects": [
     {
-      "name": "Система автоматизации работы больницы",
-      "description": "Курсовая работа по курсу \"Объектно-ориентированное программирование\" в СПбПУ",
+      "name": "Web приложение для онлайн-аптеки",
+      "description": "Курсовая работа по курсу \"Технологии и разработки качественного программного обеспечения\" в СПбПУ",
       "highlights": [
-        "Разработал веб-приложение на языке Java, позволяющее автоматировать работу больницы. Бэкенд написан с использованием Spring Framework, фронтенд использует фреймворк Vaadin"
+	"Реализовал пользовательский путь покупателя(создание заказа, фильтрация и поиск товаров, добавление и удаление товаров из корзины)",
+        "Спроектировал базы данных",
+	"Верстка части страниц и реализация их функционала"
       ],
       "keywords": [
         "Java",
         "Spring",
-        "Vaadin",
+        "TypeScript",
         "PostgreSQL"
       ],
-      "startDate": "2022-02-22",
-      "endDate": "2022-05-28",
+      "url": "",
+      "startDate": "2023-09-03",
+      "endDate": "2023-12-19",
       "type": "coursework"
     },
     {
@@ -162,30 +163,40 @@
       "description": "Курсовая работа по курсу \"Архитектура программных систем\" в СПбПУ",
       "highlights": [
         "Спроектировал систему массового обслуживания с заданными параметрами",
-        "Разработал программу для имитационного моделирования СМО с заданными дисциплинами отказа и постановки на обслуживание",
-        "Реализовал REST API сервис на основе разработанной программы",
-        "Разработал фронтенд для приложения с использованием фреймворка React"
+        "Разработал программу для имитационного моделирования СМО с заданными дисциплинами отказа и постановки на обслуживание"
       ],
       "keywords": [
         "Система массового обслуживания",
         "Queueing system",
         "Имитационное моделирование",
-        "Simulation modeling",
-        "Go",
-        "OpenAPI",
-        "React"
+        "Simulation modeling"
       ],
+      "url": "",
       "startDate": "2022-09-15",
       "endDate": "2022-11-17",
       "type": "coursework"
+    },
+    {
+      "name": "Многопользовательская автоматизированная система управления аэропорта",
+      "description": "Курсовая работа по курсу \"Базы данных\" в СПбПУ",
+      "highlights": [
+        "Разработал оконное приложение на основе Tkinter",
+	"Спроектировал базу данных"
+      ],
+      "keywords": [
+        "Python",
+        "Tkinter",
+        "MySQL"
+      ],
+      "url": "",
+      "startDate": "2022-09-15",
+      "endDate": "2022-11-17",
+      "type": "project"
     }
   ],
   "interests": [
     {
-      "name": "Кулинария"
-    },
-    {
-      "name": "Кино"
+      "name": "Компьютерные игры, кино, спорт"
     }
   ],
   "meta": {
